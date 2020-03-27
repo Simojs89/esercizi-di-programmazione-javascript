@@ -12,3 +12,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var time = 12560;
+const val1 =3600;
+const val2=60;
+hour = Math.floor(time/val1);
+var resthour=time%val1;
+min = Math.floor(resthour/val2);
+var restmin =resthour%val2;
+console.log(`${time}equivale a ${hour} ore, ${min} minuti`);
