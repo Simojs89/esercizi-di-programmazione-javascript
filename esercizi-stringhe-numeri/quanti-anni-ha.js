@@ -11,3 +11,8 @@
 
   http://www.imparareaprogrammare.it
 */
+var currently = 2020;
+var born = 1989;
+var age= (currently - born);
+var miss = 100-age;
+console.log(`attualmente hai ${age} anni e mancano ${miss} anni per i 100 `);
