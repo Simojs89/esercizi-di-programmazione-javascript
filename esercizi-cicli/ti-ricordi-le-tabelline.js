@@ -8,3 +8,13 @@
 
   http://www.imparareaprogrammare.it
 */
+var number = prompt("inserisci il numero");
+var maxtable=10;
+var risultato=0;
+
+while (number<=maxtable) {
+  risultato = number*5;number++;
+
+console.log (risultato);
+
+}
