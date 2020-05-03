@@ -22,7 +22,7 @@
 
   http://www.imparareaprogrammare.it
 */
-var day = (6);
+var day = promt;
 
 switch (day) {
 case 1: console.log("lunedì");
