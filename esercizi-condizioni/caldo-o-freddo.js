@@ -9,3 +9,15 @@
 
   http://www.imparareaprogrammare.it
 */
+var lun = 10;
+var mar = -2;
+var mer = 31;
+var gio = 22;
+var ven = 15;
+var sab = -6;
+var dom = 7;
+
+
+
+console.log(`la giornata più calda registra ${Math.max(lun,mar,mer,gio,ven,sab,dom)}`);
+console.log(`la giornata piu fredda registra ${Math.min(lun,mar,mer,gio,ven,sab,dom)}`);
