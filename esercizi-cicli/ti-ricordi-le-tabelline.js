@@ -11,9 +11,11 @@
 var number = prompt("inserisci il numero");
 var maxtable=10;
 var risultato=0;
+var x=0;
 
-while (number<=maxtable) {
-  risultato = number*5;number++;
+while (x<=maxtable) {
+  risultato = (number*x);x++;
+
 
 console.log (risultato);
 
