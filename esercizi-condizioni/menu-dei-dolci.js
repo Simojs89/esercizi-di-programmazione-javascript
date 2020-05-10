@@ -21,3 +21,30 @@
 
   http://www.imparareaprogrammare.it
 */
+function dolce() {
+var scelta;
+
+
+scelta = document.getElementById(1).value;
+
+
+
+if (scelta=="1") {
+    document.getElementById(2).innerHTML=("hai scelto il tiramisù");
+
+} if (scelta=="2") {
+  document.getElementById(2).innerHTML=("hai scelto la torta della nonna");
+
+}if (scelta=="3") {
+  document.getElementById(2).innerHTML=("hai scelto cheesecake alla nutella");
+
+}if (scelta=="4") {
+  document.getElementById(2).innerHTML=("hai scelto la macedonia");
+}
+if (scelta >= "5") {
+  document.getElementById(2).innerHTML=("dolce non disponibile");
+}
+
+
+
+}
