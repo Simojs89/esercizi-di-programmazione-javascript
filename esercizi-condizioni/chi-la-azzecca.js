@@ -19,3 +19,44 @@
 
   http://www.imparareaprogrammare.it
 */
+function random (){
+
+  var play1;
+  var play2;
+  var num = Math.round(Math.random()*(100-1)+1);
+
+  play1= document.getElementById("uno").value;
+  play2= document.getElementById("due").value;
+
+
+  document.getElementById("random").innerHTML=(`il numero casuale è : `+ num);
+
+if (play1==num) {
+var risultato =document.createElement("p")
+var testo= document.createTextNode(`numero esatto, hai vinto`)
+risultato.appendChild(testo)
+document.getElementById("risultato").appendChild(risultato)
+}
+
+if (play1!=num) {
+  var risultato =document.createElement("p")
+  var testo= document.createTextNode(`mi spiace non hai vinto`)
+  risultato.appendChild(testo)
+  document.getElementById("risultato").appendChild(risultato)
+}
+
+if (play2==num) {
+  var risultato =document.createElement("p")
+  var testo= document.createTextNode(`numero esatto, hai vinto`)
+  risultato.appendChild(testo)
+  document.getElementById("risultato").appendChild(risultato)
+}
+if (play2!=num) {
+  var risultato =document.createElement("p")
+  var testo= document.createTextNode(`mi spiace non hai vinto`)
+  risultato.appendChild(testo)
+  document.getElementById("risultato").appendChild(risultato)
+}
+
+
+}
