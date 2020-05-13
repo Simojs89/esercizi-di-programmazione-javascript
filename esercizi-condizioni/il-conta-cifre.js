@@ -11,3 +11,23 @@
 
   http://www.imparareaprogrammare.it
 */
+function number() {
+
+var cifre;
+cifre = document.getElementById("numero").value;
+var lunghezza = cifre.length;
+
+if (lunghezza==1) {
+  document.getElementById('newnumber').innerHTML= lunghezza+(` cifra`);
+  }
+  if (lunghezza==2) {
+    document.getElementById('newnumber').innerHTML= lunghezza+(` cifre`);
+}
+if (lunghezza==3) {
+  document.getElementById('newnumber').innerHTML= lunghezza+(` cifre`);
+}
+if (lunghezza>3) {
+  document.getElementById('newnumber').innerHTML= (`undefined`);
+}
+
+}
