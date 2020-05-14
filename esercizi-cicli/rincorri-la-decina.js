@@ -19,3 +19,14 @@
 
   http://www.imparareaprogrammare.it
 */
+var numero
+
+for (var i = 0; i < 101; i++) {
+numero += i;
+
+  if (i % 10==0) {
+    numero += '\n';
+
+}
+}
+console.log(numero);
