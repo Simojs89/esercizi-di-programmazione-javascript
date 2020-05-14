@@ -28,3 +28,36 @@
 
   http://www.imparareaprogrammare.it
 */
+function cocomi() {
+  var operazion;
+  operazion = document.getElementById("oper").value
+  //a=document.getElementById("number1").value
+  //b=document.getElementById("number2").value
+
+  var a=parseInt(number1.value);
+  var b=parseInt(number2.value);
+
+var somma=a+b
+
+  switch (true) {
+    case operazion == "somma":
+    document.getElementById("risposta").innerHTML="il risultato è "+ (Math.abs(a + b))
+      break
+    case operazion == "moltiplicazione":
+    document.getElementById("risposta").innerHTML="il risultato è "+ (Math.abs(a * b))
+      break
+      case operazion == "sottrazione":
+      document.getElementById("risposta").innerHTML="il risultato è "+ (Math.abs(a - b))
+        break
+        case operazion == "divisione":
+        document.getElementById("risposta").innerHTML="il risultato è "+ (Math.abs(a / b))
+          break
+          case operazion == "media":
+          document.getElementById("risposta").innerHTML="il risultato è "+ (Math.abs(a+b)/2)
+            break
+            case operazion == "potenza":
+            document.getElementById("risposta").innerHTML="il risultato è "+ (Math.pow(a,b))
+              break
+}
+
+}
