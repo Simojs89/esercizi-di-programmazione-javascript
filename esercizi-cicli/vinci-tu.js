@@ -14,3 +14,46 @@
 
   http://www.imparareaprogrammare.it
 */
+var dado1=Math.round(Math.random()*6)
+var dado2=Math.round(Math.random()*6)
+var dado3=Math.round(Math.random()*6)
+var dado4=Math.round(Math.random()*6)
+
+var a
+var b
+function pippo(){
+  for (var i = 0; i < 3; i++) {
+    document.getElementById("uno").innerHTML=('il primo dado ha dato il numero' + dado1)
+
+
+  }
+}
+var a=dado1 + dado3
+function ciccio(){
+
+  document.getElementById("quattro").innerHTML=('la seconda possibilità ha dato il numero ' + dado3)
+
+  document.getElementById("cinque").innerHTML=('la somma delle due possibilità è:'+a)
+
+}
+
+function turi(){
+  for (var i = 0; i < 3; i++) {
+    document.getElementById("otto").innerHTML=('il primo dado ha dato il numero' + dado2)
+
+}
+}
+var b=dado2 + dado4
+function saro(){
+  document.getElementById("sei").innerHTML=('la seconda possibilità ha dato il numero ' + dado4)
+
+  document.getElementById("sette").innerHTML=('la somma delle due possibilità è:'+b)
+}
+
+function vincitore(){
+  if (a>b) {
+    document.getElementById("win").innerHTML= ('Il giocatore 1 è il vincitore')
+  }else {
+    document.getElementById("win").innerHTML= ('Il giocatore 2 è il vincitore')
+  }
+}
