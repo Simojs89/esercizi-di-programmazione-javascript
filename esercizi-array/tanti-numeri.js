@@ -12,3 +12,38 @@
 
   http://www.imparareaprogrammare.it
 */
+var a =[1,5,10,32,18];
+
+  var sum=0
+var media=0
+
+
+
+for (var i = 0; i < a.length; i++) {
+sum= sum+a[i]
+media=sum/a.length
+
+}
+console.log(media);
+
+
+
+if (a[0]<media) {
+  console.log(a[0]);
+
+}
+if (a[1]<media) {
+  console.log(a[1]);
+
+}
+if (a[2]<media) {
+  console.log(a[2]);
+
+}
+if (a[3]<media) {
+  console.log(a[3]);
+
+}if (a[4]<media) {
+  console.log(a[4]);
+
+}
