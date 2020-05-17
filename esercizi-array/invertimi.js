@@ -15,3 +15,19 @@
 
   http://www.imparareaprogrammare.it
 */
+var a=[3,5,10,2,8]
+var b = prompt("")
+
+
+if (b==5) {
+  for (var i = 0; i <1; i++) {
+    console.log("array ottenuto "+a);
+
+    a.reverse();
+    console.log("array inverso "+a);
+}
+
+}else if (b!=5) {
+  console.log("none");
+
+}
