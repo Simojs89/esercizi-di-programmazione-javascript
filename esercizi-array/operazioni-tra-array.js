@@ -19,3 +19,38 @@
 
   http://www.imparareaprogrammare.it
 */
+var a = Array.from({length: 9}, () => Math.floor(Math.random() * 9));
+var b=Array.from({length: 9}, () => Math.floor(Math.random() * 9));
+
+var e=prompt("");
+
+for (var i = 0; i <a.length; i++) {
+    var sum = a.map(function (num, idx) {
+    return num + b[idx]
+
+  })
+
+    var sot = a.map(function (num, idx) {
+    return num - b[idx]
+
+  })
+}
+
+
+switch (e) {
+  case "somma":
+  console.log("la somma degli array è: "+sum)
+
+    break;
+case "sottrazione":
+console.log("la sottrazione degli array è: "+sot)
+
+}
+
+
+
+
+
+
+console.log(a);
+console.log(b);
