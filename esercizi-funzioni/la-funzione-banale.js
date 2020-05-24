@@ -13,6 +13,16 @@
     Input: n = 2, m = 2
     Output: TRUE
 
-    
+
   http://www.imparareaprogrammare.it
 */
+function egual (num1,num2){
+  if (num1 == num2) {
+    console.log("true");
+
+  }else {
+    console.log("false");
+
+  }
+}
+egual (1,"1")
