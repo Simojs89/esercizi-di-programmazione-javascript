@@ -12,3 +12,17 @@
 
   http://www.imparareaprogrammare.it
 */
+var x=prompt()
+var element=1;
+function fattoriale(x) {
+  for (let index = 1; index <= x; index++) {
+    element *= index 
+
+    
+    
+    
+  }
+  
+}
+fattoriale(x)
+console.log(element);
