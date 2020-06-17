@@ -14,3 +14,45 @@
 
   http://www.imparareaprogrammare.it
 */
+let n=prompt("Inserisci un numero")
+let ris="true";
+let ris2="false";
+function number() {
+    
+    if (n <= 7) {
+                document.getElementById("elemento").innerHTML=ris 
+        
+}else{
+    document.getElementById("elemento").innerHTML=ris2 
+        
+    }
+    
+}
+
+
+function week() {
+    if (n==1) {
+        document.getElementById("elemento2").innerHTML=`1 - Lunedi`
+        
+    }else if (n==2) {
+        document.getElementById("elemento2").innerHTML=`2 - Martedi`
+        
+    }else if (n==3) {
+        document.getElementById("elemento2").innerHTML=`3 - Mercoledi`
+        
+    }else if (n==4) {
+        document.getElementById("elemento2").innerHTML=`4 - Giovedi`
+        
+    }else if (n==5) {
+        document.getElementById("elemento2").innerHTML=`5 - Venerdi`
+        
+    }else if (n==6) {
+        document.getElementById("elemento2").innerHTML=`6 - Sabato`
+        
+    }else if (n==7) {
+        document.getElementById("elemento2").innerHTML=`7 - Domenica`
+        
+    }else if (n>7) {
+        document.getElementById("elemento2").innerHTML=`Errore`
+}
+}
