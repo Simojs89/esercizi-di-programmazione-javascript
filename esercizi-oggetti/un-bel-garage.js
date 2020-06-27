@@ -9,3 +9,19 @@
 
   http://www.imparareaprogrammare.it
 */
+
+function Auto(marca,modello,colore) {
+  this.marca=marca;
+  this.modello=modello;
+  this.colore=colore;
+  this.descrizione= function(){
+      console.log(this.marca+ ' '+ this.modello+' '+this.colore);
+      
+  }
+
+  
+}
+
+let fiat=new Auto(prompt("Inserisci la marca"),prompt("Inserisci il modello"),prompt("Inserisci il colore"))
+fiat.descrizione()
+
