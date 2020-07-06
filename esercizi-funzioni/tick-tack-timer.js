@@ -14,3 +14,10 @@
             
   http://www.imparareaprogrammare.it
 */
+function conta(){
+  for (let i = prompt("inserisci il numero da cui partire"); i >= 0; i=i-1) {
+     console.log(i);
+       }
+     
+      }
+conta()
